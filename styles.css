@@ -51,7 +51,6 @@ nav {
 }
 
 .nav-link{
-    color: rgb(255, 0, 0);
     font-size: 18px;
 }
 
@@ -266,7 +265,7 @@ html, body {
 }
 
 .wrapper .button:hover .icon i{
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 .wrapper .button span{
@@ -301,13 +300,14 @@ html, body {
 /* curriculum */
 
 .h2-cv {
-    color: #fff;
+    color: #87AACC;
     text-align: center;
     margin-top: 15rem;
 }
 
-#btn-cv {
-    
+#download {
+    margin: 2rem 0;
+    text-align: center;
 }
 
 /* footer */
@@ -319,7 +319,7 @@ html, body {
 
 
 /* Responsividade */
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1200px) {
  .container-1{
      grid-template-columns: repeat(2, 1fr);
     padding: 2rem 50px;
@@ -327,6 +327,14 @@ html, body {
 
     .h2-cv{
         margin-top: 10px;
+    }
+
+    .card-body{
+        display: inline;
+    }
+
+    .card-title{
+        margin-top: 20px;
     }
 }
 
