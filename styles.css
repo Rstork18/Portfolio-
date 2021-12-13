@@ -7,8 +7,20 @@
 }
  /* nav */
 
+.navbar-toggler {
+    background: #343A40!important;
+}
+
 #nav-bar {
     background: #343A40;
+}
+
+.nav-link:hover {
+    background-color: #F7931E !important;
+    color: #000 !important;
+    border-radius: 25px 5px;
+    transition: 1s;
+    
 }
 
 .div-1 {
@@ -38,8 +50,27 @@ nav {
 /* cards/projects */
 h4 {    
     text-align: center;
-    color: white;
+    color: #fff;
     margin-bottom: 2rem !important;
+}
+
+.card-body {
+    text-align: center;
+}
+
+button {
+    background: #fff !important;
+    color: #000 !important;
+    border: none !important;
+   transition: 0.5s;
+}
+
+button:hover {
+     background-color: #F7931E !important;
+    color: #000 !important;
+    border: none;
+    border-radius: 25px 5px;
+      transition: 1s;
 }
 
 /* skills */
@@ -158,9 +189,105 @@ h4 {
     z-index: 2;
 }
 
+/* contacts */
+
+html, body { 
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background: #343A40 ;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin: 0 10px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 1s ease-out;
+}
+
+.wrapper .button:hover{
+    width: 200px;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+     height: 60px;
+    width: 60px;
+    text-align: center !important;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: 1s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon{
+    background: #0072b1 ;
+   
+}
+
+.wrapper .button:nth-child(2):hover .icon{
+    background:  #EA4335;
+}
+
+.wrapper .button:nth-child(3):hover .icon{
+    background: #25d366;
+}
+
+.wrapper .button:nth-child(4):hover .icon{
+    background: #6e5494;
+}
 
 
+.wrapper .button .icon i{
+    font-size: 30px;
+    line-height: 60px;
+    transition: 1s ease-out;
+}
 
+.wrapper .button:hover .icon i{
+    color: rgb(255, 255, 255);
+}
+
+.wrapper .button span{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 5px;
+    transition: 1s ease-out;
+}
+
+.wrapper .button:nth-child(1) span{
+    color: #0072b1 ;
+}
+
+.wrapper .button:nth-child(2) span{
+    color: #EA4335;
+}
+
+.wrapper .button:nth-child(3) span{
+    color: #25d366;
+}
+
+.wrapper .button:nth-child(4) span{
+    color: #6e5494;
+}
+
+.links-contacts {
+    text-decoration: none !important;
+}
+
+/* footer */
+
+#div-footer {
+    padding: 25px ;
+}
 
 
 
