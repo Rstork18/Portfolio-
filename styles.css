@@ -52,7 +52,7 @@ nav {
 
 .nav-link{
     color: rgb(255, 0, 0);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* cards/projects */
@@ -78,7 +78,7 @@ button:hover {
     color: #000 !important;
     border: none;
     border-radius: 25px 5px;
-      transition: 1s;
+    transition: 1s;
 }
 
 /* skills */
@@ -206,6 +206,12 @@ html, body {
     background: #343A40 ;
 }
 
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
 .wrapper .button{
     display: inline-block;
     height: 60px;
@@ -291,6 +297,19 @@ html, body {
     text-decoration: none !important;
 }
 
+
+/* curriculum */
+
+.h2-cv {
+    color: #fff;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+#btn-cv {
+    
+}
+
 /* footer */
 
 #div-footer {
@@ -305,4 +324,9 @@ html, body {
      grid-template-columns: repeat(2, 1fr);
     padding: 2rem 50px;
     }
+
+    .h2-cv{
+        margin-top: 10px;
+    }
 }
+
