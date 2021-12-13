@@ -17,10 +17,18 @@
 
 .nav-link:hover {
     background-color: #F7931E !important;
-    color: #000 !important;
+    color: #fff !important;
     border-radius: 25px 5px;
     transition: 1s;
-    
+}
+
+.nav-link {
+    padding: 15px !important;
+    width: 100px;
+    text-align: center;
+    color: #fff !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .div-1 {
